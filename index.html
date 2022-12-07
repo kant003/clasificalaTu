@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>ClasificalaTu</h1>
+      <div>
+        Forma Sombrero:
+        <input type="checkbox" value="flat"> Flat
+        <input type="checkbox" value="convex"> Convex
+        <input type="checkbox" value="offset"> Offset
+      </div>
+      <div>
+        Parte inferior sombrero:
+        <select name="hymenium" id="hymenium">
+          <option value="free">free</option>
+          <option value="adnate">adnate</option>
+          <option value="subdecurrent">subdecurrent</option>
+        </select>
+      </div>
+      <div>
+        Color esporas:
+        <select name="spore" id="spore">
+          <option value="black">black</option>
+          <option value="white">white</option>
+          <option value="black-brown">black-brown</option>
+        </select>
+      </div>
+      <button id="search">Buscar</button>
+      <div id="result">...</div>
+    </div>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
